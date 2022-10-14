@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  .container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(230, 230, 250, 0.5),rgba(245,245,245, 0.15)),url(pexels-jéshoots-218863.jpg);
+   
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255,255,255,0.2);
+    height: 67px;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(1.5px) saturate(180%);
+  }
+  .search-bar input{
+    background: transparent;
+    flex: 1;
+    border:0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 21px;
+    color: black;
+  }
+  ::placeholder{
+    color: white;
+  }
+  .search-bar button img{
+    width: 25px;
+  }
+  .search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #000000;
+    cursor: pointer;
+  }
+  img{
+    width: 25px;
+  }
+  
